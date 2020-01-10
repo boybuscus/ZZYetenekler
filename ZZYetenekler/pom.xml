@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>buscus</groupId>
+  <artifactId>zorzamanlar</artifactId>
+  <version>0.1</version>
+  <name>ZorZamanlarYetenekleri</name>
+  <description>agakalkzz</description>
+  
+  	
+  <dependencies>
+     	<!-- Spigot API -->
+  	<dependency>
+    	<groupId>org.spigotmc</groupId>
+    	<artifactId>Spigot-Server</artifactId>
+    	<version>LATEST</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/server1.jar</systemPath>
+    </dependency>
+    <!-- ProjectKorra -->
+    <dependency>
+    	<groupId>com.projectkorra</groupId>
+    	<artifactId>projectkorra</artifactId>
+    	<version>1.8.9</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/ProjectKorra-1.8.9.jar</systemPath>
+    </dependency>
+  </dependencies>
+  
+</project>

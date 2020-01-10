@@ -1,0 +1,6 @@
+name: ZorZamanlarYetenekleri
+version: ALPHA-1.0
+api-version: 1.13
+main: com.buscus.zorzamanlar.Main
+authors: [Boybuscuss]
+depend: [ProjectKorra]
